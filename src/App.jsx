@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
+import Description from './components/Description/Description.jsx'
 import Section from './components/Section/Section.jsx'
 import Options from './components/Options/Options.jsx'
 import Feedback from './components/Feedback/Feedback.jsx'
@@ -37,9 +38,8 @@ export default function App() {
 
   return (
     <div className="container">
-      <Section title="Sip Happens Café">
-        <p>Please leave your feedback about our service by selecting one of the options below.</p>
-      </Section>
+      
+      <Description />
 
       <Section title="Options">
         <Options
