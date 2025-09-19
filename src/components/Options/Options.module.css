@@ -1,0 +1,14 @@
+.row { display: flex; gap: 12px; flex-wrap: wrap; }
+.btn {
+  padding: 10px 14px;
+  border: 1px solid #e3e3e9;
+  background: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  text-transform: capitalize;
+  transition: transform .05s ease, box-shadow .2s ease, background .2s ease;
+}
+.btn:hover { box-shadow: 0 6px 18px rgba(0,0,0,0.06); background: #fafafa; }
+.btn:active { transform: translateY(1px); }
+.reset { text-transform: none; border-color: #ffd5d5; background: #fff5f5; }
+.reset:hover { background: #ffecec; box-shadow: 0 6px 18px rgba(255,0,0,0.06); }

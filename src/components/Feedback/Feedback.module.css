@@ -1,0 +1,2 @@
+.list { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; }
+.total { margin-top: 6px; padding-top: 6px; border-top: 1px dashed #ddd; }
