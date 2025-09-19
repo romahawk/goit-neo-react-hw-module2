@@ -1,0 +1,5 @@
+:root { font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; color:#222; }
+* { box-sizing: border-box; }
+body { margin:0; background:#f7f7f9; }
+.container { max-width:720px; margin:48px auto; padding:24px; background:#fff; border-radius:16px; box-shadow:0 8px 30px rgba(0,0,0,.06);}
+h1,h2{margin:0 0 12px;} p{margin:0 0 12px;}
